@@ -7,9 +7,6 @@ const prisma = new PrismaClient()
 //permite express ler formato json
 app.use(express.json())
 
-// username: jeremiasverissimo19
-// password: z8AHfxIMTXNkyTLC
-
 const users = []
 
 app.post("/usuarios", async (req,res)=>{
