@@ -15,7 +15,7 @@ Também temos os famosos <b>endpoins</b>, esses que são urls específicas que r
 * PUT - Atualiza informações;
 * DELETE - Remove uma informação
 
-<b>EXEMPLO PRÁTICO</b>
+<b>EXEMPLO PRÁTICO</b><br/>
 imagine que você tenha um sistema, com os seguintes endpoints
 
 * GET ``api/usuarios`` -> você terá uma lista de usuários;
