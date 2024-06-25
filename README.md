@@ -17,8 +17,11 @@ Também temos os famosos <b>endpoins</b>, esses que são urls específicas que r
 <b>EXEMPLO PRÁTICO</b>
 imagine que você tenha um sistema, com os seguintes endpoints
 
-* GET ``api/usuarios`` -> você terá uma lista de usuários
-
+* GET ``api/usuarios`` -> você terá uma lista de usuários;
+* GET ``api/usuarios/{id}`` -> obtém detalhes de um usuário através do seu ID;
+* POST ``api/usuarios`` -> adiciona um novo usuário;
+* PUT ``api/usuarios/{id}`` -> modifica um usuário específico através do ID;
+* DELTE ``api/usuarios/{id}`` -> deleta um usuário através do ID.
 
 
 
